@@ -38,7 +38,7 @@ const Cart = () => {
           {/* image */}
           <div class="w-10 rounded-full">
             <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-              <div class="w-10 rounded-full">
+              <div class="lg:w-10 rounded-full">
                 <img src="https://static.fibre2fashion.com/MemberResources/LeadResources/1/2017/9/Seller/17133153/Images/17133153_0_men-s-t-shirt.jpg" />
               </div>
             </label>
@@ -59,7 +59,7 @@ const Cart = () => {
         
         </div>
 
-        <button className="btn btn-info flex justify-between gap-5 rounded-full px-5">
+        <button className="btn btn-info ml-5 lg:flex md:mx-auto w-full justify-center gap-5 rounded-full px-10">
           <h3 className="text-red-400">Total Cost:</h3>
           <h3>$159,98</h3>
         </button>

@@ -10,7 +10,7 @@ const Home = () => {
         <div>
             <Payment></Payment>
 
-            <div className='flex font-light normal-case  items-center justify-center gap-8'>
+            <div className='lg:flex font-light normal-case  items-center justify-center gap-8'>
             <Input></Input>
             <PaymentMethod></PaymentMethod>
             <Cart></Cart>

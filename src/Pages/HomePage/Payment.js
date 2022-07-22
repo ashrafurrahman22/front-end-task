@@ -7,7 +7,7 @@ const Payment = () => {
         <div>
             <div class="flex bg-base-100 my-7 p-4">
   <div class="flex-1">
-    <a class="btn btn-ghost normal-case lg:text-xl text-sm">Shipping & Payment</a>
+    <a class="btn btn-ghost normal-case lg:text-xl text-base">Shipping & Payment</a>
   </div>
 
   <div class="flex">
