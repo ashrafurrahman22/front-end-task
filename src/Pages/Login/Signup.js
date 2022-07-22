@@ -42,10 +42,6 @@ const Signup = () => {
         signInError = <p className='text-red-500'><small>{error?.message || error?.message || updateError?.message}</small></p>
     }
 
-    // if (token) {
-    //     navigate('/appointment');
-    // }
-
     const onSubmit = async data => {
         await createUserWithEmailAndPassword(data.email, data.password);
         await updateProfile({ displayName: data.name });
