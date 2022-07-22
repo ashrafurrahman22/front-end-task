@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Input = () => {
     return (
         <div>
             <div className='flex items-center gap-5 my-5'>
-            <button style={{backgroundColor: '#7AD0A7'}} className='btn btn-info text-white px-9 rounded-full'>Log in</button>
-            <button style={{backgroundColor: 'white'}} className='btn btn-info px-9 rounded-full'>Sign Up</button>
+            <Link to='/login' style={{backgroundColor: '#7AD0A7'}} className='btn btn-info text-white px-9 rounded-full'>Log in</Link>
+            <Link to='/signup' style={{backgroundColor: 'white'}} className='btn btn-info px-9 rounded-full'>Sign Up</Link>
             </div>
 
             <h3 className='text-xl'>Shipping Information</h3>

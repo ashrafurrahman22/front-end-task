@@ -39,16 +39,16 @@ const Cart = () => {
           <div class="w-10 rounded-full">
             <label tabindex="0" class="btn btn-ghost btn-circle avatar">
               <div class="w-10 rounded-full">
-                <img src="https://placeimg.com/80/80/people" />
+                <img src="https://static.fibre2fashion.com/MemberResources/LeadResources/1/2017/9/Seller/17133153/Images/17133153_0_men-s-t-shirt.jpg" />
               </div>
             </label>
           </div>
           {/* info */}
           <div>
-            <h4>T-Shirt</h4>
+            <h4>Basic Slim</h4>
             <p>Summer Vibes</p>
             <p>
-              <small>#261311</small>
+              <small>#212315</small>
             </p>
           </div>
           {/* total */}
@@ -65,7 +65,7 @@ const Cart = () => {
         </button>
 
         <div className="my-5 flex justify-center items-center gap-5">
-          <FontAwesomeIcon className="text-3xl" icon={faTruckDroplet}></FontAwesomeIcon>
+          <FontAwesomeIcon className="text-2xl" icon={faTruckDroplet}></FontAwesomeIcon>
           <h3 className="text-center">You are $30,02 away <br /> from free shipping! </h3>
         </div>
       </div>
