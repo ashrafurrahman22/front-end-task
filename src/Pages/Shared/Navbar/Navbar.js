@@ -1,10 +1,11 @@
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100 border-y-2">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -25,13 +26,13 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost normal-case text-xl">E-Shop</a>
+    <Link to='/' class="btn btn-ghost normal-case text-xl">E-Shop</Link>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
-      <li><a>Men</a></li>
-      <li><a>Women</a></li>
-      <li><a>Kids</a></li>
+      <li><Link to='/men'>Men</Link></li>
+      <li><Link to='/women'>Women</Link></li>
+      <li><Link to='/kids'>Kids</Link></li>
     </ul>
   </div>
   <div class="navbar-end">
