@@ -1,14 +1,13 @@
 import React from 'react';
-import gifhy from '../../assets/blogs.gif';
-
+import kidsGifhy from '../../assets/kids.gif';
 
 const Kids = () => {
     return (
         <div className='min-h-screen'>
-            <h2 className="text-2xl text-amber-400 font-semibold my-5 ml-16 uppercase">Coming Soon...</h2>
+            <h2 className="text-2xl text-amber-400 font-semibold my-5 ml-24 uppercase">Coming Soon...</h2>
             <div className='flex justify-center
             items-center'>
-                <img src={gifhy} alt="" />
+                <img src={kidsGifhy} alt="" />
             </div>
         </div>
     );

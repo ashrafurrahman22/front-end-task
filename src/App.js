@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Error from './Pages/Error/Error';
 import Home from './Pages/HomePage/Home';
+import Kids from './Pages/Kids/Kids';
 import Login from './Pages/Login/Login';
 import Signup from './Pages/Login/Signup';
 import Men from './Pages/Men/Men';
@@ -19,7 +20,7 @@ const App = () => {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/men' element={<Men></Men>}></Route>
         <Route path='/women' element={<Women></Women>}></Route>
-        <Route path='/kids' element={<Women></Women>}></Route>
+        <Route path='/kids' element={<Kids></Kids>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
         <Route path='*' element={<Error></Error>}></Route>
